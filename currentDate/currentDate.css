@@ -1,2 +1,22 @@
-body {margin: 1rem;}
+body {
+    margin: 1rem;
+    font-size: 16px;
+}
 #currentdate {color:#4b7;}
+
+header, main, footer {
+    max-width: 760px;
+
+}
+
+header, footer{
+    margin: .5rem;
+    padding: .5rem;
+    background-color: aquamarine;
+}
+
+header img{
+    float: right;
+    width: auto;
+
+}

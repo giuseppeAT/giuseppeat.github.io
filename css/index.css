@@ -1,0 +1,36 @@
+body {
+    margin: 1rem;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#lastmod {color:darkgoldenrod;}
+
+header, main, footer {
+    max-width: 760px;
+}
+
+header, footer{
+    margin: .5rem;
+    padding: 1rem;
+    background-color:darkmagenta;
+    border: aquamarine;
+    color: whitesmoke;
+}
+
+header img{
+    float: right;
+    width: auto;
+
+}
+
+footer {
+    text-align: center;
+}
+
+a:link {
+    color: teal;
+}
+
+a:visited {
+    color:lightcoral
+}
