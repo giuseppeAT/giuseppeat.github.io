@@ -4,38 +4,92 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Lesson 2: design-principles</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-    <link rel="stylesheet" href="css/design-principles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
   </head>
   <body>
+    <header>
+      <h1>Design Principles</h1>
+      <h2>Kelton J. Green</h2>
+    </header>
     <main>
-        <section>
-            <h2>Column 1 Heading</h2>
-            <ul>
-                <li><a href="#">The Tired Iguana</a></li>
-                <li><a href="#">Lewiston Capital</a></li>
-                <li><a href="#">Ground Flight</a></li>
-                <li><a href="#">Flex Not</a></li>
-                <li><a href="#">Principle Based</a></li>
-                <li><a href="#">80/20 Rule</a></li>
-                <li><a href="#">What Not</a></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Column 2 Heading</h2>
-            <picture>
-                <img class="colimage" src="https://placekitten.com/300/230" alt="placeholder image">
-            </picture>
-        </section>
-        <section>
-            <h2>Column 3 Heading</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto libero quibusdam quidem adipisci non eligendi nemo sunt sapiente dolores omnis? Molestiae laboriosam necessitatibus officiis recusandae tempora unde aspernatur tetur quis dolorum recusandae 
-            </p>
-        </section>
+      <section>
+        <h2>Contrast</h2>
+        <ul>
+          <li>
+            <a href="https://www.chess.com">Chess.com - Play Chess Online</a>
+          </li>
+        </ul>
+        <picture>
+          <img class="colorImage" src="images/www.chess.com_.png" alt="chess" />
+        </picture>
+        <p>
+          The contrast between the bright green squares of the chess board and
+          the play button are in great contrast to the dark background and the
+          white/grey text that cover the information on the site.
+        </p>
+      </section>
+      <section>
+        <h2>Rule of Thirds</h2>
+        <ul>
+          <li>
+            <a href="https://www.alternativeto.net"
+              >AlternativeTo - Crowdsourced software reccomendations</a
+            >
+          </li>
+        </ul>
+        <picture>
+          <img
+            class="colorImage"
+            src="images/alternativeto.net_.png"
+            alt="alternative to"
+          />
+        </picture>
+        <p>
+          I think the header of the site at the top of the page, the information
+          of how much stuff and people interact on AlternativeTo, and the
+          articles on the bottom of the page create a great example of the 
+          Rule of Thirds when you initially click on the site.
+        </p>
+      </section>
+      <section>
+        <h2>White Space and Clean Design</h2>
+        <ul>
+          <li>
+            <a href="https://www.pcpartpicker.com"
+              >PCPartPicker - Pick parts. Build your PC.</a
+            >
+          </li>
+        </ul>
+        <picture>
+          <img
+            class="colorImage"
+            src="images/pcpartpicker.com_.png"
+            alt="pcpartpicker"
+          />
+        </picture>
+        <p>
+          The nice spacing of text, icons, buttons and example builds with pictures
+          creates a lot of pleasant space and keeps the site looking clean.
+        </p>
+      </section>
     </main>
+    <footer>
+      &copy; <span id="theyear"></span> | Kelton Green | Idaho |
+      <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+      <p class="highlightone">Last Modified: <span id="lastmod"></span></p>
+    </footer>
+    <script src="/../js/index.js"></script>
   </body>
 </html>

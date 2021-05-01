@@ -12,9 +12,9 @@ header, main, footer {
 header, footer{
     margin: .5rem;
     padding: 1rem;
-    background-color:darkmagenta;
+    background-color: burlywood;
     border: aquamarine;
-    color: whitesmoke;
+    color: black;
 }
 
 header img{

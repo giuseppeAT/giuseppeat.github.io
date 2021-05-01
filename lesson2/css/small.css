@@ -1,0 +1,38 @@
+header, footer{
+    margin: .5rem;
+    padding: 1rem;
+    background-color: burlywood;
+    border: aquamarine;
+    border-radius: 10px;
+    color: black;
+	text-align: center;
+}
+
+/* phone or baseline views **************************/
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+main section h2 {
+	color: #536878;
+}
+
+main section {
+	margin: 0.5rem;
+	border: 1px solid #536878;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+
+main section:nth-child(2) {
+	display: none;
+	margin: 0.5rem;
+}
+
+.colorImage {
+	box-shadow: 0 0 30px #333;
+}
