@@ -1,0 +1,6 @@
+@media only creen and (min-width: 32em) {
+    .profile {
+        width: 200px;
+        float: right;
+    }
+}
