@@ -4,14 +4,21 @@ body {
 }
 
 
-header,
-footer {
+header {
 	background-color: #98c1d9;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
+}
+
+footer{
+    margin: 1.5rem;
+    padding: 1rem;
+    background-color: #98c1d9;
+    color: black;
+	text-align: center;
 }
 
 /* phone or baseline views **************************/
@@ -21,16 +28,13 @@ main,
 footer {
 	max-width: 767px;
 	margin: auto;
+	padding: 20px;
 }
 h1 {
 	font-size: 2rem;
 }
 h2 {
 	color: #ee6c4d;
-}
-
-a:link {
-    color: #3d5a80;
 }
 
 nav {
@@ -44,7 +48,7 @@ nav ul {
 	padding: 0;
 	overflow: hidden;
 }
-nav ul li a {
+nav a {
 	display: block;
 	color: #e0fbfc;
 	text-align: center;
