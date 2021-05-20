@@ -6,7 +6,7 @@ header {
 }
 
 header img {
-  width: 60px;
+  width: 80%;
   height: auto;
 }
 
@@ -17,7 +17,7 @@ header img {
 
 .motto {
   float: left;
-  margin: 1rem;
+  margin: 0;
 }
 
 footer {
@@ -29,7 +29,9 @@ footer {
 
 h1 {
   font-size: 2rem;
+  margin: 0;
 }
+
 h2 {
   color: #ee6c4d;
 }
@@ -98,4 +100,9 @@ nav {
 
 .responsive li {
   display: block;
+}
+
+.menu {
+  height: 200%;
+  width: auto;
 }

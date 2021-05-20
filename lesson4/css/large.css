@@ -14,4 +14,8 @@
       .navigation li:first-child {
         display: none;
       }
+      header img {
+        width: 100%;
+        height: auto;
+      }
     }
