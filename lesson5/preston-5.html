@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/large.css" />
   </head>
   <body>
+    <div id="banner">Pancake</div>
     <header>
         <picture>
         <img
@@ -34,30 +35,78 @@
       <ul class="navigation">
         <li><a class="menu"> &Congruent;</a></li>
         <li>
-          <a href="#">Home</a>
+          <a class="btn" href="#">Home</a>
         </li>
         <li>
-          <a href="#">Preston</a>
+          <a class="btn active" href="preston-5.html">Preston</a>
         </li>
         <li>
-          <a href="#">Soda Springs</a>
+          <a class="btn" href="#">Soda Springs</a>
         </li>
         <li>
-          <a href="#">Fish Haven</a>
+          <a class="btn" href="#">Fish Haven</a>
         </li>
         <li>
-          <a href="#">Storm Center</a>
+          <a class="btn" href="#">Storm Center</a>
         </li>
         <li>
-          <a href="#">Gallery</a>
+          <a class="btn" href="#">Gallery</a>
         </li>
       </ul>
     </nav>
     <main>
       <h2>Preston Idaho</h2>
-      <div class="contentbox">Hero Image</div>
-      <div class="contentbox">Weather Summary</div>
-      <div class="contentbox">Five Day Forecast</div>
+      <div class="herodiv">
+        <img src="#" alt="#">
+        <section class="forecast">
+          <h3>Weather Summary</h3>
+          <div class="weather">
+            <p class="label">Status:</p>
+            <p class="value">Sunny</p>
+            <p class="label">High:</p>
+            <p class="value"># &deg;F</p>
+            <p class="label">Low:</p>
+            <p class="value"># &deg;F</p>
+            <p class="label">Humidity:</p>
+            <p class="value">#%</p>
+            <p class="label">Wind Speed:</p>
+            <p class="value"># mph</p>
+          </div>
+        </section>
+      </div>
+      <h2>Flex</h2>
+<div class="flex">
+	<div class="flex-col">
+		<span class="col-head">1</span>
+		<img src="https://placekitten.com/50/50" alt="kitten!">
+		<span class="data">Kitten 1</span>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">2</span>
+		<img src="https://placekitten.com/50/50" alt="kitten!">
+		<span class="data">Kitten 2</span>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">3</span>
+		<img src="https://placekitten.com/50/50" alt="kitten!">
+		<span class="data">Kitten 3</span>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">4</span>
+		<img src="https://placekitten.com/50/50" alt="kitten!">
+		<span class="data">Kitten 4</span>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">5</span>
+		<img src="https://placekitten.com/50/50" alt="kitten!">
+		<span class="data">Kitten 5</span>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">6</span>
+		<img src="https://placekitten.com/50/50" alt="kitten!">
+		<span class="data">Kitten 6</span>
+	</div>
+</div>
       <div class="contentbox">Article Title</div>
       <div class="contentbox">Contact Information</div>
     </main>
@@ -70,5 +119,6 @@
     <script src="js/getCurrentDate.js"></script>
     <script src="js/toggleMenu.js"></script>
     <script src="js/bannerAd.js"></script>
+    <script src="js/activeNav.js"></script>
   </body>
 </html>
